@@ -237,9 +237,9 @@ function checkfire_city(city,sales){
             var22 = (acres[1]/1976.00).toFixed(0)
             var23 = (acres[1]/30000.00).toFixed(2)
             document.getElementById('picfirename').innerHTML = " " + fire_name[1]
-            document.getElementById('compare1').innerHTML = var21 + "\xa0\xa0&"
-            document.getElementById('compare2').innerHTML = var22 + "\xa0\xa0&"
-            document.getElementById('compare3').innerHTML = var23 + "\xa0\xa0&"
+            document.getElementById('compare1').innerHTML = var21 + "\xa0\xa0"
+            document.getElementById('compare2').innerHTML = var22 + "\xa0\xa0"
+            document.getElementById('compare3').innerHTML = var23 + "\xa0\xa0"
         } 
         document.getElementById('fire_name').innerHTML = fire_name1
         document.getElementById('time').innerHTML = date1
@@ -272,9 +272,9 @@ function checkfire_city(city,sales){
             var12 = (acres[0]/1976.00).toFixed(0)
             var13 = (acres[0]/30000.00).toFixed(2)
             document.getElementById('picfirename').innerHTML = " " + fire_name[0]
-            document.getElementById('compare1').innerHTML = var11 + " \xa0\xa0&"
-            document.getElementById('compare2').innerHTML = var12 + " \xa0\xa0&"
-            document.getElementById('compare3').innerHTML = var13 + " \xa0\xa0&"
+            document.getElementById('compare1').innerHTML = var11 + " \xa0\xa0"
+            document.getElementById('compare2').innerHTML = var12 + " \xa0\xa0"
+            document.getElementById('compare3').innerHTML = var13 + " \xa0\xa0"
         }
         document.getElementById('botton1').onclick = function(){
             clear()
@@ -283,9 +283,9 @@ function checkfire_city(city,sales){
             var22 = (acres[1]/1976.00).toFixed(0)
             var23 = (acres[1]/30000.00).toFixed(2)
             document.getElementById('picfirename').innerHTML = " " + fire_name[1]
-            document.getElementById('compare1').innerHTML = var21 + " \xa0\xa0&"
-            document.getElementById('compare2').innerHTML = var22 + " \xa0\xa0&"
-            document.getElementById('compare3').innerHTML = var23 + " \xa0\xa0&"
+            document.getElementById('compare1').innerHTML = var21 + " \xa0\xa0"
+            document.getElementById('compare2').innerHTML = var22 + " \xa0\xa0"
+            document.getElementById('compare3').innerHTML = var23 + " \xa0\xa0"
         } 
         document.getElementById('botton2').onclick = function(){
             clear()
