@@ -65,8 +65,8 @@ td{
     grid-template-columns: 60% 40%;
     margin-left: 3%;
     margin-right: 3%;
-    margin-top:3%;
-    margin-bottom: 3%;
+    margin-top:5%;
+    margin-bottom: 5%;
 }
 
 #summaryCharts2{
@@ -74,12 +74,12 @@ td{
     grid-template-columns: 40% 60%;
     margin-left: 3%;
     margin-right: 3%;
-    margin-top:3%;
-    margin-bottom: 3%;
+    margin-top:5%;
+    margin-bottom: 5%;
 }
 #summaryCharts3{
-    margin-top:3%;
-    margin-bottom: 3%;
+    margin-top:5%;
+    margin-bottom: 5%;
 }
 #mapthing{
     display: grid;
@@ -195,3 +195,11 @@ td{
     color: green;
 }
 
+#lastp {
+    text-align: left;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:3%;
+    margin-right: 3%;
+    font-size: large;
+}
